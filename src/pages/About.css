@@ -1,0 +1,23 @@
+.about-page {
+    margin: 0 15vw 0vw 15vw;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+.about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40vw;
+    column-gap: 2vw;
+}
+
+.about-me-container .section {
+    margin-bottom: 0;
+}
+
+#quokka-img {
+    max-width: 20vw;
+    height: 20vw;
+}

@@ -1,0 +1,14 @@
+.image {
+    text-align: center;
+    width: 100%;
+}
+
+.image p {
+    color: gray;
+    font-size: 80%;
+    margin-top: 0;
+}
+
+.image img {
+    width: 100%;
+}

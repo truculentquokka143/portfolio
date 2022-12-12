@@ -1,0 +1,35 @@
+.persona {
+    max-width: 38vw;
+    height: auto;
+}
+
+#persona1 {
+    margin-bottom: 1vw;
+}
+
+#persona2 {
+    margin-top: 0;
+}
+
+#questions ol {
+    list-style-type: roman;
+}
+
+#observations, #questions {
+    margin-top: 3vw;
+    list-style-type: none;
+}
+
+.question {
+    margin-bottom: 1vw;
+    font-weight: 1000;
+    color: rgb(174, 174, 174);
+}
+
+.list-items {
+    margin-bottom: 3vw;
+} 
+
+.list-items li {
+    margin-bottom: 0;
+}

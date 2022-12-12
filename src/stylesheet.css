@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'HappyOk';
+    src: url('HappyOkRegular.woff2') format('woff2'),
+        url('HappyOkRegular.woff') format('woff'),
+        url('HappyOkRegular.ttf') format('truetype'),
+        url('HappyOkRegular.svg#HappyOkRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

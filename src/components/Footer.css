@@ -1,0 +1,45 @@
+.footer-basic {
+    position: absolute;
+    width: 70vw;
+    height: 2.5rem;  
+    color: gray;
+    text-align: center;
+    font-size: 16px;
+    padding: 3vw 15vw 3vw 15vw;
+    line-height: 5px;
+}
+
+.footer-contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    width: 25vw;
+}
+
+.contact a {
+    text-decoration: underline;
+    color: gray;
+}
+
+.contact a:hover {
+    color: rgb(156, 169, 245);
+    transition: .3s ease-in-out;
+}
+
+.back-to-top {
+   width: 25vw;
+   height: min-content;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+
+.back-to-top-contents {
+    text-decoration: underline;
+    border-style: none;
+    border-radius: 20px;
+    padding: 20px 20px;
+}

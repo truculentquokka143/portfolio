@@ -1,0 +1,89 @@
+.top {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+.about-with-img {
+    display: flex;
+    margin-top: 8vw;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 45vw;
+    text-align: left;
+}
+
+#quokka-cute-img {
+    max-width: 25vw;
+    height: 25vw;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    margin: 7vw;
+    row-gap: 5vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.name-text {
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.quokka {
+    width: 100%;
+}
+
+
+.about-bio {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+/* https://codepen.io/bitstarr/pen/XjaJGz */
+.arrow {
+    position: absolute;
+    margin-top: 80vh;
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/downarrow.png");
+    background-size: contain;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+span {
+    color: rgb(156, 169, 245);
+    font-weight: bolder;
+}

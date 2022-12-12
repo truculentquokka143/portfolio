@@ -1,0 +1,55 @@
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+    column-gap: 2vw;
+    align-items: center;
+}
+
+.hifi {
+    max-width: 50%;
+}
+
+.task {
+    width: 120%;
+}
+
+.email {
+    max-width: 70%;
+}
+.main-img {
+    width: 100vw;
+}
+
+#webpage {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+#first-row-sketch {
+    margin-bottom: 0;
+}
+
+#second-row-sketch {
+    margin-top: 0;
+}
+
+#critique-list {
+    list-style-type: none;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    padding: 2vw 3vw 2vw 3vw;
+    border-radius: 15px;
+    background-color: rgb(246, 246, 246);
+}
+
+#critique-list li {
+    margin-bottom: 1vw;
+}
+
+#overview, #takeaways {
+    background-color: rgb(245, 244, 254);
+    padding: 1vw 2vw 1vw 2vw;   
+    border-radius: 15px;
+}

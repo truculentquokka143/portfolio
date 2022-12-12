@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vh 7vw;
+    max-height: 2vh;
+    font-size: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: gray;
+}
+
+ol {
+    list-style-type: none;
+}
+
+a:hover {
+    color: rgb(156, 169, 245);
+    transition: .3s ease-in-out;
+}
+
+.tab {
+    display: inline;
+    list-style: none;
+    padding-left: 2vw;
+}
+
+.logo {
+    max-width: 6vw;
+    max-height: auto;
+}
+
+.navbar img {
+    width: 70%;
+}
+
